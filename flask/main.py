@@ -32,6 +32,7 @@ def markdown2html(mdfile, title = None):
         extensions = [
             'markdown.extensions.extra',
             'markdown.extensions.smarty',
+            'markdown.extensions.fenced_code',
             'markdown.extensions.toc'
         ]
     )
